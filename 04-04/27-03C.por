@@ -86,7 +86,4 @@ programa{
         escreva("\nMulheres: ", qtdF)
     }
 
-    funcao addCandidato(){
-    
-    }
 }

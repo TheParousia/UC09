@@ -3,7 +3,6 @@ programa{
         inteiro opcao
         logico executaPrograma = verdadeiro
         
-
         faca{
             escreva("ESCOLHA UMA OPERAÇÃO DE CALCULO DE ÁREA\n")
             escreva("\n1- Triângulo")
@@ -31,7 +30,9 @@ programa{
                     executaPrograma = falso
                     pare
             }
-            stop()
+            cadeia pausa
+            leia(pausa)
+            limpa()
         }enquanto(executaPrograma)
         
     }
