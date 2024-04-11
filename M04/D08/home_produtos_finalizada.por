@@ -26,9 +26,19 @@ programa{
                     removeProduto()
                     pare
                 caso 3:
-                    para(inteiro i=0;i<topo;i++){
-                        fazerCardProduto(nomeProdutos[i], precoProdutos[i], estoqueProdutos[i])
+                    para(inteiro i=0;i<-;i++){
+
+                        fazerCardProduto(
+                            i,
+                            nomeProdutos[i],
+                            precoProdutos[i],
+                            estoqueProdutos[i]
+                        )
+                        
                     }
+
+
+                    nomeProdutos[0]
 
                     pare
                 caso 4:
@@ -37,6 +47,7 @@ programa{
                     leia(codProduto)
 
                     fazerCardProduto(
+                        codProduto,
                         nomeProdutos[codProduto],
                         precoProdutos[codProduto],
                         estoqueProdutos[codProduto]
@@ -76,10 +87,11 @@ programa{
             topo--
         }
     }
+    
 
-
-    funcao fazerCardProduto(cadeia nome, real preco, inteiro estoque){
+    funcao fazerCardProduto(inteiro cod, cadeia nome, real preco, inteiro estoque){
         escreva("\n+-----------------------------+")
+        escreva("\n| Cod: ",cod)
         escreva("\n| Nome: ",nome)
         escreva("\n| Preço: R$",preco)
         escreva("\n| Estoque: ",estoque, " unidades")
