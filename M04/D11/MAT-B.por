@@ -31,7 +31,5 @@ programa{
             escreva("Média: ", notas[i][2])
             escreva("\n===========================\n")
         }
-
-
     }
 }

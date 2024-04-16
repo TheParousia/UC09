@@ -1,6 +1,6 @@
 programa{
   inclua biblioteca Util
-  
+
   funcao inicio(){
     inteiro i, j, copia, tam = 10, vet[50]
 
